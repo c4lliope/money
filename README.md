@@ -1,18 +1,12 @@
 This script reports on the status of your goals in Simple,
 and catches them up if necessary
 
-1. Fill in your username and password in the script,
-and read it to make sure it's doing what you think it will.
-
-2. Install dependencies
-
-```bash
-gem install ruby-progressbar capybara poltergeist
-```
-
-3. Run the script!
+1. Fill in your username and password in the script
+2. Read the script to make sure it's doing what you think it will
+3. Install dependencies and run the script!
 
 ```bash
+gem install bundler && bundle install
 ruby lib/money.rb
 ```
 
